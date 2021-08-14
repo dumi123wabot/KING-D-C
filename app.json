@@ -3,12 +3,12 @@
     "description": "KING D-C - Whatsapp Bot",
     "logo": "https://i.ibb.co/7kfyq6H/IMG-20210803-WA0650.jpg",
     "keywords": ["whatsapp", "userbot", "Asena", "KING DC", "bot", "api", "ai"],
-    "repository": "https://github.com/farhan-dqz-Julie/Mwol",
+    "repository": "https://github.com/dumi123wabot/KING-D-C.git",
     "website":   "https://t.me/phaticusthiccy",
     "success_url": "https://t.me/AsenaSupport",
     "stack": "container",
     "env": {
-        "ASENA_SESSION": {
+        "KING DC_SESSION": {
             "description": "Qr.Js ile oluşturduğunuz özel session kodu. Type here yours Asena Session.",
             "required": true
         },
