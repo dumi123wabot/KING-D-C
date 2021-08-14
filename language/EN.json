@@ -185,17 +185,17 @@
             "SONG_DESC": "Uploads the song you wrote.",
             "NEED_TEXT_SONG": "*Please write a song!*\n*Example:* ```.song eminem - rap god```",
             "NO_RESULT": "*I couldn't find anything :(*",
-            "DOWNLOADING_SONG": "\n*Searching*\n",
-            "UPLOADING_SONG": "\n*Feel the song*\n",
+            "DOWNLOADING_SONG": "\n*ඔයාගෙ සින්දුව මම ලබා ගන්න ගමන්.....😜🥀*\n",
+            "UPLOADING_SONG": "\n*ඔයාගෙ සින්දුව ඔයාට දෙන ගමන්.......🥀🍂*\n",
             "VIDEO_DESC": "Downloads video from YouTube.",
             "NEED_VIDEO": "*Please write a video link!*\n*Example:* ```.video https://www.youtube.com/watch?v=nAFlVm5qeBc```",
-            "DOWNLOADING_VIDEO": "*Downloading*",
-            "UPLOADING_VIDEO": "*Uploading*",
+            "DOWNLOADING_VIDEO": "*ඔයාගෙ වීඩියෝව හොයන ගමන්...🍂*",
+            "UPLOADING_VIDEO": "*ඔයාගේ වීඩියෝව ඔයාට ලබා දෙන ගමන්....🥀😇*",
             "YT_DESC": "It searchs on YouTube.",
             "NEED_WORDS": "```Please write a few words!```",
-            "GETTING_VIDEOS": "```I'm bringing videos...```",
+            "GETTING_VIDEOS": "```ඔයා ඉල්ලපු ලින්ක් හොයන ගමන්....🥀🍂```",
             "NOT_FOUND": "*I couldn't find anything :(*",
-            "SEARCHING": "* 🔎 Searching...*",
+            "SEARCHING": "* විකිපීඩියා එකේ හොයන ගමන්....💻*",
             "WIKI_DESC": "Searches query on Wikipedia.",
             "IMG_DESC": "Searches for related pics on Google.",
             "IMG": "Uploading photo ```{}``` number ```{} ```..."
@@ -203,7 +203,7 @@
         "sticker": {
             "STICKER_DESC": "It converts your replied photo or video to sticker.",
             "NEED_REPLY": "*Reply to a photo or video!*",
-            "DOWNLOADING": "```Nissaram🧞‍♂️```"
+            "DOWNLOADING": "```CONVERTING...⏳```"
         },
         "system_stats": {
             "ALIVE_DESC": "Does bot work?",
@@ -223,15 +223,15 @@
             "REPLY": "*Please Respond to User's Message to Report!*"
         },
         "updater": {
-            "UPDATER_DESC": "Checks the update.",
-            "UPDATE": "*Your bot is completely up-to-date!*",
-            "NEW_UPDATE": "*New update available for Bot!*\n\nChanges:\n```",
+            "UPDATER_DESC": "බොට්ට අප්ඩේට් ඇත්දැයි පරීක්ශා කරයි.",
+            "UPDATE": "*ඔබේ බොට්ට කිසිදු අප්ඩේටයක් නොමැත!*",
+            "NEW_UPDATE": "*KING D-C available for Bot!*\n\nඔබට බොට්ව අප්ඩේට් කිරීමට .update now ලබාදෙන්න මෙය ඔබය ලොග් චැට් එක හැර අනිත් ඕනෑම චැට් එකක බාවිත කරන්න\n\nවෙනස්කම්:\n```",
             "UPDATE_NOW_DESC": "It makes updates.",
-            "UPDATING": "Updating..🧞‍♂️",
+            "UPDATING": "Updating...🔰",
             "INVALID_HEROKU": "*❌ Your Heroku app name or api key wrong!*",
-            "UPDATED": "*✅  Updated!*",
-            "UPDATED_LOCAL": "*✅ Updated!*",
-            "AFTER_UPDATE": "*JulieMwol Restarting !*",
+            "UPDATED": "* Updated..😉💖*",
+            "UPDATED_LOCAL": "*✅ සාර්තකව අප්ඩේට් කරන ලදී*",
+            "AFTER_UPDATE": "*KING D-C නැවත ආරම්භ කිරීම...♻️🔄*",
             "IN_AF": "*Please check* ```HEROKU_APP_NAME``` *and* ```app name``` *They must be same.*\n*If these two values ​​are the same, please restore* ```HEROKU_API_KEY```\n\n_To access these settings, use Heroku >> App >> Settings >> Reavel Config Vars_\n_To renew your API key, follow these steps, Heroku >> Account >> API Key then replace old api key in config vars._"
         },
         "whois": {
@@ -278,14 +278,14 @@
             "URL": "Shorten the long link."
         },
         "conventer": {
-            "MP4TOAUDİO_DESC": "Converts video to sound.",
+            "MP4TOAUDİO_DESC": "වීඩියෝ ශබ්ද බවට පරිවර්තනය.",
             "MP4TOAUDİO_NEEDREPLY": "*You Must Reply to a Video!*",
-            "MP4TOAUDİO": "```Converting Video to Audio..```",
-            "ANİM_STİCK": "Converts animated stickers to video.",
-            "ANİMATE": "```Converting Animated Sticker To Video..```",
-            "STİCKER_DESC": "Converts the sticker to a photo.",
+            "MP4TOAUDİO": "```වීඩියෝ ශබ්ද බවට පරිවර්තනය කිරීම...```",
+            "ANİM_STİCK": "```සෙලවෙන ස්ටිකර් වීඩියෝ බවට පරිවර්තනය කිරීම.🐱‍🏍.",
+            "ANİMATE": "ලවෙන ස්ටිකර් වීඩියෝ බවට පරිවර්තනය කිරීම..```",
+            "STİCKER_DESC": "ස්ටිකර් පොටො බවට පරිවර්තනය.",
             "STİCKER_NEEDREPLY": "*You Must Reply to a sticker!*",
-            "STİCKER": "```Converting the sticker to a photo..```",
+            "STİCKER": "```ස්ටිකර් පොටො බවට පරිවර්තනය...🎁✔```",
             "XMEDİA_DESC": "It is a plugin with more than 25 media tools.",
             "T_FALSE": "```❌ Incorrect Blend Effect Entered!```\n```🔎 Existing Commands:```\n\n*$dodge* - Applies a pink color filter to the video.\n*$multiply* - Applies a green color filter to the video.\n*$grainmerge* - Increases the contrast of the video.\n*$and* - Applies black lightning effect according to the speed of the video.\n*$or* - Applies a white lightning effect according to the speed of the video.\n*$burn* - Applies green contrast to video.\n*$difference* - Shows the differences by applying green relief to the video.\n*$grainextract* - Shows the differences by applying gray relief to the video.\n*$divide* - Demonstrates the differences by applying a pink relief to the video.\n*$xor* - Applies both green relief and lightning effect to video.\n*$hardmix* - Mixes the colors of the video into a yellow and red tone.\n*$negation* - Turns the dynamics of the video to pink.",
             "T_NOT": "```💭 You Need To Enter Any Blend Effects!\n```🔎 Existing Commands:```\n\n*$dodge* - Applies a pink color filter to the video.\n*$multiply* - Applies a green color filter to the video.\n*$grainmerge* - Increases the contrast of the video.\n*$and* - Applies black lightning effect according to the speed of the video.\n*$or* - Applies a white lightning effect according to the speed of the video.\n*$burn* - Applies green contrast to video.\n*$difference* - Shows the differences by applying green relief to the video.\n*$grainextract* - Shows the differences by applying gray relief to the video.\n*$divide* - Demonstrates the differences by applying a pink relief to the video.\n*$xor* - Applies both green relief and lightning effect to video.\n*$hardmix* - Mixes the colors of the video into a yellow and red tone.\n*$negation* - Turns the dynamics of the video to pink.",
