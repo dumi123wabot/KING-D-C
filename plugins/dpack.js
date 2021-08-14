@@ -1,7 +1,7 @@
 /* # Exclusively from D-GANG
 */
 
-const dgang = require( ../events );
+const dpack = require( ../events );
 const { MessageType, MessageOptions, Mimetype } = require( @adiwajshing/baileys );
 const fs = require( fs );
 const axios = require( axios );
@@ -16,7 +16,7 @@ if (Config.WORKTYPE ==  private ) {
 
         var ttinullimage = await axios.get(`https://api.xteam.xyz/api/logobp?apikey=Db2251ba8836d521&text=${encodeURIComponent(match[1])}`, { responseType:  arraybuffer  })
 
-        await message.sendMessage(Buffer.from(ttinullimage.data), MessageType.image, { mimetype: Mimetype.jpg, caption:MADE BY D-GANG})
+        await message.sendMessage(Buffer.from(ttinullimage.data), MessageType.image, { mimetype: Mimetype.jpg, caption:MADE BY KING D-C})
 
     }));
 }
@@ -29,7 +29,7 @@ else if (Config.WORKTYPE ==  public ) {
 
         var ttinullimage = await axios.get(`https://api.xteam.xyz/api/logobp?apikey=Db2251ba8836d521&text=${encodeURIComponent(match[1])}`, { responseType:  arraybuffer  })
 
-        await message.sendMessage(Buffer.from(ttinullimage.data), MessageType.image, { mimetype: Mimetype.jpg, caption:MADE BY D-GANG})
+        await message.sendMessage(Buffer.from(ttinullimage.data), MessageType.image, { mimetype: Mimetype.jpg, caption:MADE BY KING D-C})
 
     }));
     
