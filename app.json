@@ -3,178 +3,158 @@
     "description": "KING D-C project - Makes it easy and fun to use Whatsapp. World’s first UserBot made for WhatsApp.",
     "logo": "https://i.ibb.co/7kfyq6H/IMG-20210803-WA0650.jpg",
     "keywords": ["whatsapp", "userbot", "Asena", "WhatsAsena", "bot", "api", "ai"],
-    "repository": "https://github.com/dumi123wabot/KING-D-C.git",
-    "website":   "https://chat.whatsapp.com/IwypalWoEKhDWeQcmbf3Bc",
-    "success_url": "https://chat.whatsapp.com/IwypalWoEKhDWeQcmbf3Bc",
+    "repository": "https://github.com/farhan-dqz/JulieMwol",
+    "website":   "https://t.me/phaticusthiccy",
+    "success_url": "https://t.me/AsenaSupport",
     "stack": "container",
     "env": {
-         "KINGDC_SESSION": {
-            "description": "Qr සමඟ ඔබ නිර්මාණය කළ අභිරුචි session කේතය.ඇතුලත් කරන්න",
+        "KINGDC_SESSION": {
+            "description": "Qr.Js ile oluşturduğunuz özel session kodu. Type here yours Asena Session.",
             "required": true
         },
         "SUDO": {
-            "description": "ඔබේ Botවෙත තවත් පරිපාලකයෙකු ලබාදීම සදහා. කරුණාකර ඔබේ රටේ කේතය ඇතුලත්ව whatsapp දුරකථන අංකය යොදන්න, උදා:- 947xxxxxxxx",
+            "description": "Leave blank if you don't know how to use it! Sudo mode; Your number must be an international number. So you should have your number after the country code. Example: 1205xxxxxxxxx (USA number +1)",
             "required": false
         },
         "LANGUAGE": {
-            "description": "ඔයාලට සිංහාල ඕනනම් 'si' කියලා තියන්න english ඕනනම් 'en'තියන්න.If you want Sinhala, put 'si' and if you want English, put 'en'.",
+            "description": "Bot language. Azerice => az, English => en, Türkçe => tr, Malayalam => ml, Hindi => HI, Indonesia => ID, Español => ES, Portuguese => pt, Russian => ru,සිංහල සදහා si ලෙස යොදන්න",
             "required": true,
-            "value": "SI"
+            "value": "en"
         },
-        "CAPTION_KEY": {
-            "description": "Photo caption ;Beta version, logo/ image පහලින් (captain) සදහා අවශ්‍ය නම යොදන්න. උදා:- Made By Ravana.",
+        "BGM_FILTER": {
+            "description": "If you likes bgm you can write 'true'. Otherwise false",
             "required": false,
-	    "value": "Made by RAVANA"
+            "value": "true"
+        },
+        "ANTİ_LİNK": {
+            "description": "Link Engelleme Sistemi. Link Blocking System.",
+            "required": true,
+            "value": "false"
+        },
+        "AUTO_BİO": {
+            "description": "Duruma otomatik tarih ve zaman eklemek için true yapın. Set true for auto date, time in biography.",
+            "required": true,
+            "value": "false"
         },
         "HANDLERS": {
-            "description": "විධාන සඳහා. විධාන සඳහා. වෙනස් නොකරන්න",
+            "description": "Komutlar için. For commands.",
             "required": true,
-            "value": "^[.]"
+            "value": "^[.!;]"
         },
-        "XTEAM_API": {
-            "description": "api key. https://api.xteam.xyz/",
-            "required": false,
-            "value": "5bd33b276d41d6b4"
-        },
-	"ZEKS_API": {
-            "description": "api key. https://zeks.xyz/",
-            "required": false,
-            "value": "cjxJIn9eDletRHac3CG6CdvGxFH"
-        },
-	"LOLUHUMAN_API": {
-            "description": "api key. https://lolhuman.herokuapp.com/",
-            "required": false,
-            "value": "990580a2e31add15990665b0"
-        },
-	"MENU_TEXT": {
-            "description": "RaVana Official Menu. ඔබ කැමති නමක් යොදන්න. නැතහොත් වෙනස් නොකරන්න. සැයු :- _ _,* *,~ ~,``` ``` භාවිතා නොකරන්න",
-            "required": false,
-            "value": "RaVana Official Menu™"
-        },
-	"MENU_LOGO": {
-            "description": "menu එකේ පින්තූරය වෙනස් කිරීම සඳහා ඔබගේ image link පහත සඳහන් කරන්න.",
+        "FULL_EVA": {
+            "description": "Hesabınızı bir Chatbot'a Çevirin! Turn your account into a chatbot!",
             "required": true,
-            "value": "https://telegra.ph/file/000e36957e64bf5631335.jpg"
+            "value": "false"
+        },
+        "NO_LOG": {
+            "description": "Hata logu görmek istemiyorsanız true yapın. Set true if you don't want to see error log.",
+            "required": true,
+            "value": "false"
         },
         "SEND_READ": {
-            "description": "ඔබට දැකීමට අවශ්‍ය නම් true ලෙස ටයිප් කරන්න..",
+            "description": "Görüldü atmak istiyorsanız true yazın. Write true if you want to throw seen.",
             "required": true,
             "value": "true"
         },
         "HEROKU": {
-            "description": "එය හෙරොකු හි ක්‍රියාත්මක වන්නේ නම් true ටයිප් කරන්න.",
+            "description": "Herokuda çalışıyorsa true yazın. If it is running in Heroku, type true.",
             "required": true,
             "value": "true"
         },
         "HEROKU_API_KEY": {
-            "description": "Heroku API Key එක ටයිප් කරන්න.",
+            "description": "Herokuda API Keyiniz. Heroku API Key.",
             "required": true
         },
         "MUTE_MESSAGE": {
-            "description": "භිරුචිකරණය කළ හැකි නිශ්ශබ්ද පණිවිඩය! ආපසු වෙනස් කිරීමට => පෙරනිමිය භාවිතා කරන්න.",
+            "description": "Düzenlenebilir Mute Mesajı. Customizable Mute Message! Use => default, to change back.",
             "required": false,
             "value": "default"
         },
         "BLOCK_CHAT": {
-            "description": "බොට් එහි වැඩ නොකරන චැට් එක තෝරන්න. උදා: 905xxxx && 905xxxx-1xxx හෝ 905xxxx, 905xxx ...",
+            "description": "Choose in which chat the bot won't work there. Ex: 905xxxx && 905xxxx-1xxx or 905xxxx,905xxx...",
             "required": false,
             "value": "false"
         },
         "UNMUTE_MESSAGE": {
-            "description": "අභිරුචිකරණය කළ නොහැකි නිශ්ශබ්ද පණිවිඩය! ආපසු වෙනස් කිරීමට => පෙරනිමිය භාවිතා කරන්න.",
+            "description": "Düzenlenebilir Unmute Mesajı. Customizable Unmute Message! Use => default, to change back.",
             "required": false,
             "value": "default"
         },
         "BLOCK_MESSAGE": {
-            "description": " අභිරුචිකරණය කළ හැකි වාරණ පණිවිඩය! ආපසු වෙනස් කිරීමට => පෙරනිමිය භාවිතා කරන්න.",
+            "description": "Düzenlenebilir Block Mesajı. Customizable Block Message! Use => default, to change back.",
             "required": false,
             "value": "default"
         },
         "UNBLOCK_MESSAGE": {
-            "description": "අභිරුචිකරණය කළ හැකි අවහිර කිරීමේ පණිවිඩය! ආපසු වෙනස් කිරීමට => පෙරනිමිය භාවිතා කරන්න.",
+            "description": "Düzenlenebilir Unblock Mesajı. Customizable Unblock Message! Use => default, to change back.",
             "required": false,
             "value": "default"
         },
         "WORK_TYPE": {
-            "description": "RAVANA Working Type. ඔබ “පොදු” භාවිතා කරන්නේ නම්, සෑම කෙනෙකුටම බොට් භාවිතා කළ හැකිය. වෙනත් ආකාරයකින් ඔබ “පුද්ගලික” භාවිතා කරන්නේ නම්, ඔබේ බෝට්ටුව භාවිතා කළ හැක්කේ ඔබට පමණි.",
+            "description": "WhatsAsena Working Type. If you use “public”, everyone can use the bot. Else if you use “private”, only you can use your bot.",
             "required": true,
             "value": "public"
         },
         "HEROKU_APP_NAME": {
-            "description": " Heroku APP නම.",
+            "description": "Herokuda uygulama adı. Heroku APP Name.",
             "required": true
         },
         "DEBUG": {
-            "description": "සංවර්ධකයින් සඳහා පමණක්.",
+            "description": "Geliştiricilere özeldir.",
             "required": true,
             "value": "false"
         },
-        "ALIVE_LOGO": {
-            "description": "Alive message පින්තූරය වෙනස් කිරීම සඳහා ඔබගේ image link පහත සඳහන් කරන්න.",
-            "required": true,
-            "value": "https://telegra.ph/file/d34f1216d80604adb4f43.jpg"
-        },
-        "GIF_WEL": {
-            "description": "Welcome message video වෙනස් කිරීම සඳහා ඔබගේ video link පහත සඳහන් කරන්න.",
-            "required": true,
-            "value": "https://telegra.ph/file/4ce438f1111969bdd9df1.mp4"
-        },
-        "GIF_BYE": {
-            "description": "Goodbye message video වෙනස් කිරීම සඳහා ඔබගේ video link පහත සඳහන් කරන්න.",
-            "required": true,
-            "value": "https://telegra.ph/file/913e1025377cd11246775.gif"
-        },
         "REMOVE_BG_API_KEY": {
-            "description": "ඡායාරූප වල පසුබිම ඉවත් කරයි. https://remove.bg",
+            "description": "Fotoğrafların arkaplanını kaldırır. https://remove.bg",
             "required": false
         },
         "ALIVE_MESSAGE": {
-            "description": "අභිරුචිකරණය කළ හැකි සජීවී පණිවිඩය! ආපසු වෙනස් කිරීමට => පෙරනිමිය භාවිතා කරන්න.",
+            "description": "Customizable Alive Message! Use => default, to change back.",
             "required": false,
-            "value": "default"
+            "value": "\n ```I Am Alive !!!```\n\n```Type``` *.help* ```for commands```"
         },
         "BAN_MESSAGE": {
-            "description": "අභිරුචිකරණය කළ හැකි තහනම් පණිවිඩයක්! ආපසු වෙනස් කිරීමට => පෙරනිමිය භාවිතා කරන්න.",
+            "description": "Customizable Ban Message! Use => default, to change back.",
             "required": false,
             "value": "default"
         },
         "ADD_MESSAGE": {
-            "description": "අභිරුචිකරණය කළ හැකි පණිවිඩයක්! ආපසු වෙනස් කිරීමට => පෙරනිමිය භාවිතා කරන්න.",
+            "description": "Customizable Add Message! Use => default, to change back.",
             "required": false,
             "value": "default"
         },
         "KICKME_MESSAGE": {
-            "description": "රිසිකරණය කළ හැකි කික්මේ පණිවිඩය! ආපසු වෙනස් කිරීමට => පෙරනිමිය භාවිතා කරන්න.",
+            "description": "Customizable Kickme Message! Use => default, to change back.",
             "required": false,
             "value": "default"
         },
         "PROMOTE_MESSAGE": {
-            "description": "අභිරුචිකරණය කළ හැකි ප්‍රවර්ධන පණිවිඩය! ආපසු වෙනස් කිරීමට => පෙරනිමිය භාවිතා කරන්න.",
+            "description": "Customizable Promote Message! Use => default, to change back.",
             "required": false,
             "value": "default"
         },
         "DEMOTE_MESSAGE": {
-            "description": "අභිරුචිකරණය කළ හැකි දුරස්ථ පණිවිඩය! ආපසු වෙනස් කිරීමට => පෙරනිමිය භාවිතා කරන්න.",
+            "description": "Customizable Demote Message! Use => default, to change back.",
             "required": false,
             "value": "default"
         },
         "AFK_MESSAGE": {
-            "description": "අභිරුචිකරණය කළ හැකි AFK පණිවිඩය! ආපසු වෙනස් කිරීමට => පෙරනිමිය භාවිතා කරන්න.",
+            "description": "Customizable AFK Message! Use => default, to change back.",
             "required": false,
             "value": "default"
         },
         "GAN_IMAGE": {
-            "description": "Gan Style ප්ලගිනය සඳහා රූප සබැඳිය ලියන්න. Gan Style ප්ලගිනය සඳහා රූප සබැඳිය ටයිප් කරන්න(මෙය වෙනස් කරන්න එපා).",
+            "description": "Gan Style eklentisi için resim bağlantısı yazın. Type image link for Gan Style plugin.",
             "required": true,
             "value": "https://i.hizliresim.com/loUtAb.jpg"
         },
         "NO_ONLINE": {
-            "description": "ඔබට සබැඳිව පෙනී සිටීමට අවශ්‍ය නැතිනම් true ටයිප් කරන්න.",
+            "description": "Çevrimiçi görünmek istemiyorsanız true yazın. Type true if you don't want to appear online.",
             "required": false,
             "value": "true"
         },
         "COFFEEHOUSE_API_KEY": {
-            "description": "CoffeeHouse API Key. ලිඩියා සඳහා අවශ්‍යතාවය. https://coffeehouse.intellivoid.net/",
+            "description": "Pass This Step! - Bu Bölümü Geçin!",
             "required": false,
             "value": "true"
         }
