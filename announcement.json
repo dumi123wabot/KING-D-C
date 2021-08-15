@@ -1,0 +1,84 @@
+{
+    "WhatsAsena":true,
+    "__ASENAJSON__":true,
+    "variables":{
+        "user":"User Name",
+        "wa_version":"User WA Version",
+        "version":"WhatsAsena Version",
+        "os_version":"User System Version",
+        "device_model":"User Device Model (Apple, HTC..)",
+        "device_brand":"User Device Brand (Platina, Elegant..)"
+    },
+    "announcements":{
+        "infotr":"Hello do you like my BOT \nhttps://github.com/ThusharaX",
+        "infoen":"Hello do you like my BOT \nhttps://github.com/ThusharaX",
+        "infoml":"Hello do you like my BOT \nhttps://github.com/ThusharaX",
+        "infohi":"Hello do you like my BOT \nhttps://github.com/ThusharaX",
+        "infoaz":"Hello do you like my BOT \nhttps://github.com/ThusharaX",
+        "infoes":"Hello do you like my BOT \nhttps://github.com/ThusharaX",
+        "infoid":"Hello do you like my BOT \nhttps://github.com/ThusharaX",
+        "infopt":"Hello do you like my BOT \nhttps://github.com/ThusharaX",
+        "inforu":"Hello do you like my BOT \nhttps://github.com/ThusharaX",
+        "infolk": ""
+    },
+    "status":"200",
+    "announcement_owner":"ThusharaX",
+    "announcement_time":"GMT+3",
+    "stack":"/root/WhatsAppUserBot/bot.js",
+    "languages":[
+        "TR",
+        "AZ",
+        "EN",
+        "ES",
+        "PT",
+        "ID",
+        "RU",
+        "HI",
+        "ML",
+        "LK"
+    ],
+    "languages_count":"10",
+    "whatsasena_info":{
+        "name":"WhatsAppUserBot",
+        "version":"1.3",
+        "description":"WhatsApp User BOT",
+        "legacy_repo":"https://github.com/yusufusta/WhatsAsena",
+        "new_repo":"https://github.com/ThusharaX/WhatsAppUserBot",
+        "logo_url":{
+            "raw":"https://raw.githubusercontent.com/BinaryMatter/BinaryMatter.github.io/gh-pages/logoRoundwithBorder.png",
+            "hd+":"https://raw.githubusercontent.com/BinaryMatter/BinaryMatter.github.io/gh-pages/logoRoundwithBorder.png",
+            "hd":"https://raw.githubusercontent.com/BinaryMatter/BinaryMatter.github.io/gh-pages/logoRoundwithBorder.png",
+            "sd":"https://raw.githubusercontent.com/BinaryMatter/BinaryMatter.github.io/gh-pages/logoRoundwithBorder.png",
+            "thumb":"https://raw.githubusercontent.com/BinaryMatter/BinaryMatter.github.io/gh-pages/logoRoundwithBorder.png"
+        },
+        "developers":[
+            "Yusuf Usta",
+            "ThusharaX"
+        ],
+        "developers_descriptions":[
+            "Author, Base, Bug Fixes, Modules",
+            "Developer, Base, Bug Fixes, Modules"
+        ],
+        "lisance":"GNU General Public Licence v3.0",
+        "whatsasena_desc":"WhatsAppUserBot project - Makes it easy and fun to use Whatsapp. Also first userbot for Whatsapp.",
+        "issues":"https://github.com/ThusharaX/WhatsAppUserBot/issues",
+        "pull_requests":"https://github.com/ThusharaX/WhatsAppUserBot/pulls",
+        "wiki":"https://github.com/ThusharaX/WhatsAppUserBot/wiki"
+    },
+    "details":[
+        {
+            "lang":"TR",
+            "desc":"WhatsAsena Kullanıcıları için resmi duyurular.",
+            "repository":"https://github.com/phaticusthiccy/WhatsAsenaDuplicated",
+            "owner":"phaticusthiccy",
+            "owner_github":"https://github.com/phaticusthiccy"
+        },
+        {
+            "lang":"EN",
+            "desc":"Official announcements for WhatsAppUserBot Users.",
+            "repository":"https://github.com/ThusharaX/WhatsAppUserBot",
+            "owner":"ThusharaX",
+            "owner_github":"https://github.com/ThusharaX"
+        }
+    ]
+}
