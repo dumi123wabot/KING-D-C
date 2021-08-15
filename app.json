@@ -4,8 +4,8 @@
     "logo": "https://i.ibb.co/7kfyq6H/IMG-20210803-WA0650.jpg",
     "keywords": ["whatsapp", "userbot", "Asena", "WhatsAsena", "bot", "api", "ai"],
     "repository": "https://github.com/farhan-dqz/JulieMwol",
-    "website":   "https://t.me/phaticusthiccy",
-    "success_url": "https://t.me/AsenaSupport",
+    "website":   "https://chat.whatsapp.com/IwypalWoEKhDWeQcmbf3Bc",
+    "success_url": "https://chat.whatsapp.com/IwypalWoEKhDWeQcmbf3Bc",
     "stack": "container",
     "env": {
         "KING D-C_SESSION": {
